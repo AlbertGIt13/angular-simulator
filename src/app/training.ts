@@ -54,6 +54,8 @@ function removeChar(text: string, char: string): string {
   return text.split(char).join('');
 }
 
+// Arrays
+
 const usersArray: IUser[] = [
 { id: 1, name: 'Alex', email: 'alex@mail.com', age: 25 },
   { id: 2, name: 'Bob', email: 'bob@mail.com', age: 17 },
