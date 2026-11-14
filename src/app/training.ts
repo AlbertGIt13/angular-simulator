@@ -64,3 +64,5 @@ const usersArray: IUser[] = [
 ];
 
 const adultUsers: IUser[] = usersArray.filter(u => u.age !== undefined && u.age >= 18);
+
+console.log('Пользователи старше 18:', adultUsers);
